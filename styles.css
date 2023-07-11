@@ -1,0 +1,45 @@
+html {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 0;
+}
+
+header {
+    margin: 0 0 20px 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+}
+
+.menu-item {
+    float: left;
+}
+
+.menuLink {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menuLink:hover {
+    color: yellow;
+    text-decoration: underline;
+}
